@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+ <html class="no-focus" lang="en">
+    <head>
+    <title>Kbcc Video</title>	
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#183d6e">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#183d6e">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#183d6e">
+   <link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script 
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+  .button.blue {
+    background-color: #41a5db;
+    border-color: #3ca0d6;
+}
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+  </style>
+        <meta name="description" content="Kbcc- Admin Dashboard ">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+       <!-- Play Icon -->
+     <link rel="shortcut icon" href="assets/img/favicons/play.png"> 
+      
+   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+   <!-- Template color -->
+	<link href="../css/color-variations/blue.css" rel="stylesheet"  type="text/css" media="screen" title="blue">
+        <!-- Bootstrap and OneUI CSS framework -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" id="css-main" href="assets/css/oneui.css">
+		<link href="../css/color-variations/blue.css" rel="stylesheet" type="text/css" media="screen" title="blue">
+		
+    </head>
+    <body class="wide no-page-loader">
+	
+
+     <!-- HEADER -->
+	<header id="header" class="header-fullwidth">
+			<div id="header-wrap">
+			
+					<!--LOGO-->
+					<div id="logo">
+						<a href="" class="logo" data-dark-logo="logo.png">
+							<img src="logo.png" alt="Inside KCC">
+						</a>
+					</div>
+					<!--END: LOGO-->
+					<!--NAVIGATION-->
+					<div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+					</div>
+					<!--END: NAVIGATION-->
+			</div>
+		</header>	
+
+
+            <!-- Main Container --> 
+            <main id="main-container">
+                <!-- Hero Content -->
+				     <div style="text-align:center"> 
+				<div class="bg-image" style="background-image: url('assets/img/various/bg.jpg');">
+                    <div class="bg-primary-dark-op">
+                        <section class="content content-full content-boxed overflow-hidden">
+                            <!-- Section Content -->
+                            <div class="push-100-t push-50 text-center">
+							<h3 class="font-s48 font-w500 text-uppercase text-white push-10 text-center animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">KBCC VIDEOS</h3>
+                               
+					               <h1 class="h4 text-white-op push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInDown"><strong>Help Guide Videos</strong></h1>
+                               
+                            </div> 
+        	 
+			  <div class="row visibility-hidden" data-toggle="appear" data-class="animated fadeInUp">
+					  
+					 <div class="col-sm-8 col-sm-offset-2">
+                                   <!-- <img class="img-responsive pull-b" src="assets/img/various/bg.jpg" alt=""> -->
+                         
+		<div class="text-center">
+					 <div class="text-center text-white h5 font-w600 push-20">
+					 
+					
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<h2><font color="red"></font></h2>
+					<h3>Login</h3>
+						<form class="form-header" action="atcheck/" role="form" method="POST" id="#"> 
+						<div class="form-group">
+							<label class="sr-only">Username or Email</label>
+							<input type="text" name="ldaprdn" placeholder="Username or Email" class="form-control">
+
+						</div>
+						<div class="form-group m-b-5">
+							<label class="sr-only">Password</label>
+							<input type="password" name="ldappass" placeholder="Password" class="form-control">
+							<input type="hidden" name="csrflogin" value="5364f184e00c7be39cba43cb17e36273a62f1c3de9c181ef45e17255f3a2f5b54a778473dd2a4a85976d1cc808cac9eb3c0145b233f6f1f848a24711b06c9a97">
+						</div>
+						<div class="form-group form-inline text-left m-b-10 ">
+
+						
+						</div>
+						<div class="text-left form-group">
+								<input type="submit" class="button blue border rounded transparent btn-block btn-lg" value="Login">
+
+						</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div> 
+		
+									</div>
+								</div> </div>
+							</section>
+						</div>
+					</div>
+ 			
+	<!-- <div class="navbar-overlay"></div>	-->
+                <!-- END Hero Content -->
+				<div class="container">
+				<div class="bg-gray-light">
+                    <section class="content content-boxed">
+					<h4>RECENT VIDEOS</h4></br>
+                    </section>
+                </div>
+	            <!-- <div class="bg-white"> -->
+				<section class="content content-boxed">
+		
+
+		
+ <script>
+var current_page = 1;
+var records_per_page = 1;
+
+var objJson = [
+    { adName: '<div class="container"><div class="row"><div class="col-sm-3"><div class="text-center push-30"></div><h3 class="h5 font-w600 text-uppercase text-left"> ATHLETICS <h3><video width="240" height="200" controls><source src="video/StudentView3.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video></br><button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/watch?v=NxQU6jlLZJw&t=6s" data-target="#myModal">Play Video</button><div class="modal fade" id="myModal" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Modal Header</h4></div><div class="modal-body"><p>Some text in the modal.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div><div class="col-sm-3"><div class="text-center push-30"></div><h3 class="h5 font-w600 text-uppercase text-left"> NURSING <h3><video width="240" height="200" controls><source src="video/StudentView3.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.</video></br><button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="video/StudentView3.mp4" data-target="#myModal">Play Video</button><div class="modal fade" id="myModal" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Modal Header</h4></div><div class="modal-body"><p>Some text in the modal.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div><div class="col-sm-3"><div class="text-center push-30"></div><h3 class="h5 font-w600 text-uppercase text-left"> BIOLOGICAL SCIENCE <h3><video width="240" height="200" controls><source src="video/StudentView3.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video></br><button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="video/StudentView3.mp4" data-target="#myModal">Play Video</button><div class="modal fade" id="myModal" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Modal Header</h4></div><div class="modal-body"><p>Some text in the modal.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div><div class="col-sm-3"><div class="text-center push-30"></div><h3 class="h5 font-w600 text-uppercase text-left"> CERTIFICATE PROGRAMS <h3><video width="240" height="200" controls><source src="video/StudentView3.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video></br><button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="video/StudentView3.mp4" data-target="#myModal">Play Video</button><div class="modal fade" id="myModal" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Modal Header</h4></div><div class="modal-body"><p>Some text in the modal.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div></div></div>'},
+   
+
+   
+   { adName: '<div class="container"><div class="row"><div class="col-sm-3"><div class="text-center push-30"></div><h3 class="h5 font-w600 text-uppercase text-left"> Biotechnology <h3><video width="240" height="200" controls><source src="video/StudentView3.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video></br><button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="video/StudentView3.mp4" data-target="#myModal">Play Video</button><div class="modal fade" id="myModal" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Modal Header</h4></div><div class="modal-body"><p>Some text in the modal.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div><div class="col-sm-3"><div class="text-center push-30"></div><h3 class="h5 font-w600 text-uppercase text-left"> Behavioral Science Research <h3><video width="240" height="200" controls><source src="video/StudentView3.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.</video></br><button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="video/StudentView3.mp4" data-target="#myModal">Play Video</button><div class="modal fade" id="myModal" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Modal Header</h4></div><div class="modal-body"><p>Some text in the modal.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div><div class="col-sm-3"><div class="text-center push-30"></div><h3 class="h5 font-w600 text-uppercase text-left"> Certificate Programs <h3><video width="240" height="200" controls><source src="video/StudentView3.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video></br><button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="video/StudentView3.mp4" data-target="#myModal">Play Video</button><div class="modal fade" id="myModal" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Modal Header</h4></div><div class="modal-body"><p>Some text in the modal.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div><div class="col-sm-3"><div class="text-center push-30"></div><h3 class="h5 font-w600 text-uppercase text-left"> Graphic Design & Illustration <h3><video width="240" height="200" controls><source src="video/StudentView3.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video></br><button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="video/StudentView3.mp4" data-target="#myModal">Play Video</button><div class="modal fade" id="myModal" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Modal Header</h4></div><div class="modal-body"><p>Some text in the modal.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div></div></div>'},
+    { adName: "seeing page 3"},
+    { adName: "seeing page 4"},
+]; // Can be obtained from another source, such as your objJson variable
+
+function prevPage()
+{
+    if (current_page > 1) {
+        current_page--;
+        changePage(current_page);
+    }
+}
+
+function nextPage()
+{
+    if (current_page < numPages()) {
+        current_page++;
+        changePage(current_page);
+    }
+}
+    
+function changePage(page)
+{
+    var btn_next = document.getElementById("btn_next");
+    var btn_prev = document.getElementById("btn_prev");
+    var listing_table = document.getElementById("listingTable");
+    var page_span = document.getElementById("page");
+ 
+    // Validate page
+    if (page < 1) page = 1;
+    if (page > numPages()) page = numPages();
+
+    listing_table.innerHTML = "";
+
+    for (var i = (page-1) * records_per_page; i < (page * records_per_page); i++) {
+        listing_table.innerHTML += objJson[i].adName + "</br>";
+    }
+    page_span.innerHTML = page;
+
+    if (page == 1) {
+        btn_prev.style.visibility = "hidden";
+    } else {
+        btn_prev.style.visibility = "visible";
+    }
+
+    if (page == numPages()) {
+        btn_next.style.visibility = "hidden";
+    } else {
+        btn_next.style.visibility = "visible";
+    }
+}
+
+function numPages()
+{
+    return Math.ceil(objJson.length / records_per_page);
+}
+
+window.onload = function() {
+    changePage(1);
+};
+	 </script>				
+				
+<!DOCTYPE HTML>
+<html lang="en" class>
+<head>
+
+<style class="cp-pen-styles">
+.body {margin:2rem;}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+</style>
+</head>
+<body class>
+<div class="container">
+<!-- <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="video/StudentView3.mp4" data-target="#myModal">Play Vimeo Video</button> -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>        
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="video/StudentView3.mp4" id="video" allowscriptaccess="always"></iframe>
+</div>    
+      </div>
+    </div>
+  </div>
+</div> </div>
+
+
+  <div id="data-container"></div>
+<div id="pagination-container"></div>
+	<div class="uk-section" >
+        <div class="uk-container">
+             <div id="listingTable"></div>
+			<div class="uk-pagination uk-margin-medium-top" uk-margin="">
+                        <div style="float: left;" class="uk-first-column"><a href="javascript:prevPage()" id="btn_prev"><span class="uk-margin-small-right uk-pagination-previous uk-icon" uk-pagination-previous=""><svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" ratio="1">
+    <polyline fill="none" stroke="#000" stroke-width="1.2" points="6 1 1 6 6 11"></polyline>
+</svg></span> Previous</a></div>
+                        <div style="float: right;" class="uk-margin-auto-left"><a href="javascript:nextPage()" id="btn_next">Next <span class="uk-margin-small-left uk-pagination-next uk-icon" uk-pagination-next=""><svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" ratio="1">
+    <polyline fill="none" stroke="#000" stroke-width="1.2" points="1 1 6 6 1 11"></polyline>
+</svg></span></a></div>
+                    </div>
+					
+  <!--      <div class="uk-container">
+            <hr>
+			<h3 style="float: right;">Page: <span id="page" ></span></h3>
+        </div>  -->			
+        </div>	
+    </div>
+ 
+
+</br></br>
+</section>
+</div>
+	<!-- Section ends here -->
+ </br></br></br>		
+<!-- Video contents END -->
+  <!-- END Section Content -->
+ </main>
+        <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
+        <script src="assets/js/core/jquery.min.js"></script>
+        <script src="assets/js/core/bootstrap.min.js"></script>
+        <script src="assets/js/core/jquery.slimscroll.min.js"></script>
+        <script src="assets/js/core/jquery.scrollLock.min.js"></script>
+        <script src="assets/js/core/jquery.appear.min.js"></script>
+        <script src="assets/js/core/jquery.countTo.min.js"></script>
+        <script src="assets/js/core/jquery.placeholder.min.js"></script>
+        <script src="assets/js/core/js.cookie.min.js"></script>
+        <script src="assets/js/app.js"></script>
+
+        <!-- Page JS Code -->
+        <script>
+            jQuery(function () {
+                // Init page helpers (Appear + CountTo plugins)
+                App.initHelpers(['appear', 'appear-countTo']);
+            });
+        </script>
+</br></br></br>		
+	<footer class="background-dark text-grey"  id="footer">
+			<div class="copyright-content">
+			
+			<div class="container-fluid">
+						<div class="copyright-text col-md-6"> &copy; 2018<a target="_blank" href="http://www.kbcc.cuny.edu"> Kingsborough Community College </br>2001 Oriental Boulevard, Brooklyn, New York, 11235, Telephone 718-368-5000</a>
+						</div>
+    <div class="col-sm-4" style="background-color:;"> </div>
+  <a href="http://www.cuny.edu"><img src="cunyLogoo.png" alt="CUNY"/></a>
+						</div>
+					</div></br>
+				</footer>	
+			</body>
+		</html>
+    </body>
+</html>
